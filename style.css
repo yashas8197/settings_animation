@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    
+    width: 100px;
+    display: block;
+}
+ 
+
+#gear2{
+    position: relative;
+    left: 621px;
+    top: 103px;
+    animation-name: animate;
+    animation: animate 60s infinite;
+    width: 100px;
+}
+
+#gear1{
+    position: relative;
+    left: 609px;
+    top: 131px;
+    animation-name: anotheranimate;
+    animation: animate 60s infinite;
+    width: 100px;
+
+}
+
+
+@keyframes animate{
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+
+
+
